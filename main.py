@@ -30,6 +30,7 @@ if st.button('Predict'):
     # Make predictions using the loaded model
     prediction = trained_model.predict(input_features_array)
     if prediction==[1]:
+        
         print('You will Survive')
     else:
         print("You will not survive")
